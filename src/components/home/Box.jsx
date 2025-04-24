@@ -5,12 +5,12 @@ import { FaReact } from "react-icons/fa";
 import { MdContentCopy } from "react-icons/md";
 import { useContext } from "react";
 import { Context } from "../../context/context1";
-
+import avatarImg from '../../../public/img/avatar.png'
 const Box = () => {
   const { mail } = useContext(Context);
   return (
     <div className="home-box">
-      <img src="../../public/img/avatar.png" alt="foto-andoni" />
+      <img src={avatarImg} alt="foto-andoni" />
       <div className="box-info">
         <div className="box-skills">
           <h3>SKILLS</h3>
