@@ -6,6 +6,7 @@ import { MdContentCopy } from "react-icons/md";
 import { useContext } from "react";
 import { Context } from "../../context/context1";
 import avatarImg from '../../../public/img/avatar.png'
+
 const Box = () => {
   const { mail } = useContext(Context);
   return (

@@ -114,6 +114,7 @@ p {
 }
 .proyects-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   color: #fff;
   gap: 20px;
@@ -155,11 +156,15 @@ p {
 
 
 /* Responsive design */
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 920px){
   .box-info{
     display: flex;
     justify-content: center;
     gap: 50px;
+  }
+  .proyects-container{
+    gap: 20px 30px;
+    background-color: red;
   }
   .proyect{
     width: 260px
@@ -172,4 +177,29 @@ p {
     align-items: center;
     gap: 50px;
   }
+  .proyect{
+    width: 300px
+  }
+  
+}
+@media only screen and (min-width: 1500px){
+  
+  .proyect{
+    width: 350px
+  }
+  
+}
+@media only screen and (min-width: 1600px){
+  
+  .proyect{
+    width: 400px
+  }
+  
+}
+@media only screen and (min-width: 1900px){
+  
+  .proyect{
+    width: 260px
+  }
+  
 }

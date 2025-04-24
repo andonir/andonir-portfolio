@@ -1,8 +1,12 @@
 import { createContext } from "react";
-const mail = 'andoniroura@outlook.es';
+import calculatorImg from '../../public/img/calculator.png'
+ import GlowingYouUpImg from '../../public/img/GlowingYouUp.png'
+ import paintingImg from '../../public/img/painting.png'
+ import weatherImg from '../../public/img/weather.png'
+ const mail = 'andoniroura@outlook.es';
 const proyectsData = [
     {
-        img: '../../../public/img/GlowingYouUp-logo.png',
+         img: GlowingYouUpImg,
         alt: 'GlowingYouUpImg',
         h3: 'GlowingYouUp',
         p: 'Blog about personal development',
@@ -10,7 +14,7 @@ const proyectsData = [
         
     },
     {
-        img: '../../../public/img/weather img.png',
+         img: weatherImg,
         alt: 'WheaterImg',
         h3: 'Wheather Searcher',
         p: 'Weather Searcher using API',
@@ -18,7 +22,7 @@ const proyectsData = [
         
     },
     {
-        img: '../../../public/img/painting img.png',
+         img: paintingImg,
         alt: 'PaintingImg',
         h3: 'Paint  it',
         p: 'Painting web using canvas',
@@ -26,7 +30,7 @@ const proyectsData = [
 
     },
     {
-        img: '../../../public/img/calculator.png',
+        img: calculatorImg,
         alt: 'CalculatorImg',
         h3: 'Calculator',
         p: 'A simple calculator',
