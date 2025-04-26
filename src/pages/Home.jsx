@@ -13,7 +13,20 @@ const Home = () => {
           <FaLanguage className="icon-language"></FaLanguage>
         </div>
 
-        <p>I speak English, Basque and Spanish.</p>
+        <ul>
+          <li>
+            <p>Spanish (native)</p>
+          </li>
+          <li>
+            <p>Basque (road to C1)</p>
+          </li>
+          <li>
+            <p>English (road to C1)</p>
+          </li>
+          <li>
+            <p>French (near B1)</p>
+          </li>
+        </ul>
       </div>
       <Proyects></Proyects>
     </div>

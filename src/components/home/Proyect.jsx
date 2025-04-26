@@ -12,7 +12,13 @@ const Proyect = (props) => {
       </div>
       <div className="proyect-info">
         <p>{props.p}</p>
+        <div className="proyect-tech">
+          {props.tech.map((element, i)=>(
+            element
+          ))}
       </div>
+      </div>
+      
     </Link>
   );
 };

@@ -14,6 +14,7 @@ p {
   padding: 20px;
   margin: auto;
   text-align: center;
+  
   color: #fff;
   margin-top: 50px;
   border: 2px solid #fff;
@@ -53,6 +54,12 @@ p {
 }
 .icon-react {
   color: #61dafb;
+}
+.icon-node{
+  color: #3c873a;
+}
+.icon-express{
+  color: #000000;
 }
 /* Contact */
 .contact-container {
@@ -97,7 +104,13 @@ p {
 .proyects-top {
     margin-bottom: 20px;
 }
-
+.languages ul{
+  color: #fff;
+  margin-left: 40px;
+}
+.languages ul li{
+  margin-bottom: 10px;
+}
 .icon-language{
   font-size: 40px;
   color: #f7df1e;
@@ -142,7 +155,13 @@ p {
 .proyect-info {
   width: 150px;
 }
-
+.proyect-tech{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
 .proyect-main h3 {
   text-align: center;
 }
@@ -172,7 +191,7 @@ p {
 @media only screen and (min-width: 1200px){
   .home-box{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     gap: 50px;
   }
