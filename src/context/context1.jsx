@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useState} from "react";
 import calculatorImg from '../../public/img/calculator.png'
  import GlowingYouUpImg from '../../public/img/GlowingYouUp.png'
  import paintingImg from '../../public/img/painting.png'
@@ -39,9 +39,14 @@ const proyectsData = [
         
     }
 ]
+
 export const Context = createContext();
 export const ContextProvider = (props)=>{
+    const [userKey, setUserKey] = useState('');
+
     return <Context.Provider value={{
+        userKey,
+        setUserKey,
         mail,
         proyectsData
     }
