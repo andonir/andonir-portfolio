@@ -26,7 +26,6 @@
     transition: all .3s;
     background-color: #fff;
     color: black;
-    text-align: center;
 }
 .login input[type='text']:focus{
     outline: none;
