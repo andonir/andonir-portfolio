@@ -18,15 +18,15 @@ const proyectsData = [
         alt: 'WheaterImg',
         h3: 'Wheather Searcher',
         p: 'Weather Searcher using API',
-        url: '/proyects/weather-searcher'
+        url: 'https://andonir.github.io/weathersearcher/'
         
     },
     {
          img: paintingImg,
         alt: 'PaintingImg',
-        h3: 'Paint  it',
+        h3: 'Paint  It',
         p: 'Painting web using canvas',
-        url: '/proyects/paint-it'
+        url: 'https://andonir.github.io/paintit/'
 
     },
     {
@@ -34,7 +34,7 @@ const proyectsData = [
         alt: 'CalculatorImg',
         h3: 'Calculator',
         p: 'A simple calculator',
-        url: '/proyects/calculator'
+        url: 'https://andonir.github.io/calculator/'
 
         
     }
