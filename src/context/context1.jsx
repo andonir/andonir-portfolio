@@ -13,6 +13,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 
  const mail = 'andoniroura@outlook.es';
+ const realKey = '5LKfhLU62';
 
 
 const proyectsData = [
@@ -61,6 +62,7 @@ export const ContextProvider = (props)=>{
     const [userKey, setUserKey] = useState('');
 
     return <Context.Provider value={{
+        realKey,
         userKey,
         setUserKey,
         mail,

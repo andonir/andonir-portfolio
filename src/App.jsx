@@ -8,14 +8,13 @@ import Login from "./pages/Login";
 
 import "./styles/App.css";
 
-const key = 123;
 function App() {
-  const {userKey} = useContext(Context)
+  const {userKey, realKey} = useContext(Context)
 
   return (
     <>
       <Routes>
-        {key !== userKey? (
+        {realKey !== userKey? (
          
           <Route path="/" element= {<Login/>}></Route>
         ) : (

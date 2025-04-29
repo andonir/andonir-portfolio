@@ -6,14 +6,14 @@ const Login = () => {
   const { key, setUserKey } = useContext(Context);
   const handleSubmit = (e) => {
     e.preventDefault();
-    setUserKey(parseInt(e.target[0].value), 10);
+    setUserKey(e.target[0].value);
   };
   return (
     <div className="login">
-      <h1>Login</h1>
+      <h1>Log in</h1>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Introduce el código" />
-        <input type="submit" value="ACCEDER"/>
+        <input type="password" placeholder="Introduce the key"/>
+        <input type="submit" value="Submit"/>
       </form>
     </div>
   );
