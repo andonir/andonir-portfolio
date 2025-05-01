@@ -3,7 +3,7 @@ import { Context } from "../context/context1";
 import "../styles/Login.css";
 
 const Login = () => {
-  const { realKey, key, setUserKey } = useContext(Context);
+  const { setUserKey } = useContext(Context);
   const handleSubmit = (e) => {
     e.preventDefault();
 
