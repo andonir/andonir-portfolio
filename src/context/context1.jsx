@@ -16,7 +16,7 @@ import { SiExpress } from "react-icons/si";
  const realKey = '5LKfhLU62';
 
 
-const proyectsData = [
+const projectsData = [
     {
          img: GlowingYouUpImg,
         alt: 'GlowingYouUpImg',
@@ -66,7 +66,7 @@ export const ContextProvider = (props)=>{
         userKey,
         setUserKey,
         mail,
-        proyectsData
+        projectsData
     }
     }>{props.children}</Context.Provider>
 }

@@ -95,13 +95,14 @@ p {
   width: 70%;
   margin: 40px 0;
 }
-.languages-top, .proyects-top{
+.languages-top, .projects-top{
   display: flex;
   gap: 10px;
     align-items: center;
+    justify-content: center;
 }
 .languages-top,
-.proyects-top {
+.projects-top {
     margin-bottom: 20px;
 }
 .languages ul{
@@ -116,23 +117,24 @@ p {
   color: #f7df1e;
 
 }
-/* Proyects */
-.proyects {
+/* projects */
+.projects {
   width: 70%;
   margin-bottom: 50px;
 }
-.icon-proyect{
+
+.icon-project{
     font-size: 30px;
     color: #f7df1e;
 }
-.proyects-container {
+.projects-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   color: #fff;
   gap: 20px;
 }
-.proyect {
+.project {
   background-color: #000000;
   padding: 20px;
   width: 100%;
@@ -145,17 +147,17 @@ p {
   justify-content: space-around;
   text-decoration: none;
 }
-.proyect-main {
+.project-main {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
   width: 170px;
 }
-.proyect-info {
+.project-info {
   width: 150px;
 }
-.proyect-tech{
+.project-tech{
   margin: 10px;
   display: flex;
   justify-content: center;
@@ -163,14 +165,14 @@ p {
   gap: 5px;
 }
 
-.proyect-main h3 {
+.project-main h3 {
   text-align: center;
 }
-.proyect img {
+.project img {
   width: 100px;
   height: 100px;
 }
-.proyect h3 {
+.project h3 {
   color: #fff;
 }
 
@@ -182,10 +184,10 @@ p {
     justify-content: center;
     gap: 50px;
   }
-  .proyects-container{
+  .projects-container{
     gap: 20px 30px;
   }
-  .proyect{
+  .project{
     width: 260px
   }
 }
@@ -196,28 +198,28 @@ p {
     align-items: center;
     gap: 50px;
   }
-  .proyect{
+  .project{
     width: 300px
   }
   
 }
 @media only screen and (min-width: 1500px){
   
-  .proyect{
+  .project{
     width: 350px
   }
   
 }
 @media only screen and (min-width: 1600px){
   
-  .proyect{
+  .project{
     width: 400px
   }
   
 }
 @media only screen and (min-width: 1900px){
   
-  .proyect{
+  .project{
     width: 260px
   }
   

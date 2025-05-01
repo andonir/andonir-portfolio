@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
-const Proyect = (props) => {
+const Project = (props) => {
   return (
     <Link 
       to={props.url}
-      className="proyect"
+      className="project"
       target="_blank"
     >
-      <div className="proyect-main">
+      <div className="project-main">
         <img src={props.img} alt={props.alt} />
         <h3>{props.h3}</h3>
       </div>
-      <div className="proyect-info">
+      <div className="project-info">
         <p>{props.p}</p>
-        <div className="proyect-tech">
+        <div className="project-tech">
           {props.tech.map((element, i)=>(
             element
           ))}
@@ -23,4 +23,4 @@ const Proyect = (props) => {
   );
 };
 
-export default Proyect;
+export default Project;

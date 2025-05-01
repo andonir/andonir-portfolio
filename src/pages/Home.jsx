@@ -1,6 +1,6 @@
 import "../styles/Home.css";
 import Box from "../components/home/Box";
-import Proyects from "../components/home/Proyects";
+import Projects from "../components/home/Projects";
 import { FaLanguage } from "react-icons/fa";
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <Proyects></Proyects>
+      <Projects></Projects>
     </div>
   );
 };
