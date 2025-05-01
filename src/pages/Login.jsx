@@ -14,7 +14,7 @@ const Login = () => {
       <h1>Log in</h1>
       <form onSubmit={handleSubmit}>
         <input type="password" placeholder="Introduce the key" />
-        <input type="submit" value="Submit  " />
+        <input type="submit" value="Submit" onTouchEnd={(handleSubmit)}/>
       </form>
     </div>
   );
