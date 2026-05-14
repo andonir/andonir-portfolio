@@ -11,9 +11,10 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { MdOutlineLooksOne } from "react-icons/md";
 
- const mail = process.env.MAIL;
- const realKey = process.env.KEY
+ const mail = 'andoniroura@outlook.es';
+ const realKey = 'F8v7aV0sOfLk';
 
 
 const projectsData = [
