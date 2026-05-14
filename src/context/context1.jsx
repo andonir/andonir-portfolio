@@ -14,7 +14,7 @@ import { SiExpress } from "react-icons/si";
 import { MdOutlineLooksOne } from "react-icons/md";
 
  const mail = 'andoniroura@outlook.es';
- const realKey = 'F8v7aV0sOfLk';
+ const realKey = '1FAS23ÇWQafa';
 
 
 const projectsData = [
@@ -29,8 +29,8 @@ const projectsData = [
     },
     {
          img: weatherImg,
-        alt: 'WheaterImg',
-        h3: 'Wheather Searcher',
+        alt: 'WeaterImg',
+        h3: 'Weather Searcher',
         p: 'Weather Searcher using API',
         url: 'https://andonir.github.io/weathersearcher/',
         tech: [<DiHtml5 key={0} className="icon-html"/>, <DiJsBadge key={1} className="icon-js"/>, <FaCss3Alt key={2} className="icon-css"/>]
