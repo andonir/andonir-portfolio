@@ -12,8 +12,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 
- const mail = 'andoniroura@outlook.es';
- const realKey = '5LKfhLU62';
+ const mail = process.env.MAIL;
+ const realKey = process.env.KEY
 
 
 const projectsData = [
